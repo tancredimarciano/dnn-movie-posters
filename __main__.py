@@ -1,9 +1,9 @@
 import movies_dataset as movies
 import movies_genre_model
 
-min_year = 1977
-max_year = 2017
-epochs = 50
+min_year = 1991
+max_year = 2000
+epochs = 5
 genres = movies.list_genres(7)
 
 # select a smaller ratio (e.g. 40) for quicker training

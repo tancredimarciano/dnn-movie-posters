@@ -1,7 +1,7 @@
 import os
 import sys
 from shutil import copyfile
-
+import numpy
 import movies_dataset as movies
 
 min_year = 0
